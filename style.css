@@ -60,7 +60,22 @@ input:focus, textarea:focus, select:focus {
 }
 
 .main {
-  display: flex;
-  flex-direction: row;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: auto auto auto;
+  align-items: center;
+  justify-content: center;
+  max-width: 300px;
+}
 
+.card{
+  background-color: #b8b8b8;
+  padding: 25px;
+  font-size: 30px;
+  border: 1px solid black;
+  color: #1a1a1a;
+}
+.card:hover{
+  background-color: #1a1a1a;
+  color: #b8b8b8;
 }
