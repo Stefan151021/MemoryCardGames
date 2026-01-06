@@ -58,7 +58,9 @@ input:focus, textarea:focus, select:focus {
   outline: none;
   border-color: #4a9eff;
 }
-
+h1{
+  text-align: center;
+}
 .main {
   margin: 0 auto;
   display: grid;
